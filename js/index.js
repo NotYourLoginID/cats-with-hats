@@ -1,8 +1,11 @@
 $(document).ready(function() {
 	$.getJSON("assets/cats/cat_photos.json", function(data) {
-		var indicators = [];
-		var image_items = [];
 		$.each(data.photos, function(i, item) {
+			var new_indicator = $('<li/>', {
+				"data-target": "#myCarousel",
+				"data-slide-to": "0"
+			});
+			
 			var new_item = $("<div/>", {
 				"class": "item"
 			});
@@ -12,10 +15,19 @@ $(document).ready(function() {
 			});
 
 			new_item.append(new_image);
-			var new_indicator = $('<li/>', {
-				"data-target": "#myCarousel",
-				"data-slide-to": "0"
+			
+			var new_image_text = $("<div/>", {
+				"class": "carousel-caption"
 			});
+			
+			var new_image_title = $("<h2>"+item.title+"</h2>")
+			var new_image_caption = $("<p>"+item.caption+"</p>")
+			
+			new_image_text.append(new_image_title);
+			new_image_text.append(new_image_caption);
+			
+			new_item.append(new_image_text);
+			
 
 			if (i == 0) {
 				new_item.attr("class", "item active");
