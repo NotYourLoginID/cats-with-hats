@@ -3,16 +3,16 @@
         "class":"cat-carousel-photo",
         "title": "Meeeeow!",
         "caption": "I can has food now please?",
-        "src": "cat01.jpg"
+        "src": "assets/cats/cat01.jpg"
     }, {
         "class":"cat-carousel-photo",
         "title": "Well hello there!",
         "caption": "I can see your soul",
-        "src": "cat02.jpg"
+        "src": "assets/cats/cat02.jpg"
     }, {
         "class":"cat-carousel-photo",
         "title": "git push --force",
         "caption": "I develop in production",
-        "src": "cat03.jpg"
+        "src": "assets/cats/cat03.jpg"
     }]
 }

@@ -3,15 +3,23 @@ body {
 	padding-bottom: 30px;
 }
 
-.my-main-content, .my-sidebar {
-
-	background-color: cyan;
+.my-main-content,
+.my-sidebar {
 	border-radius: 5px;
-	min-height:300px
+	min-height: 300px
 }
 
-.carousel-inner > .item > img {
-	height: 300px;
-	margin:auto;
+.carousel-inner> .item> img {
+	height: 400px;
+	margin: auto;
+	border-radius: 5px;
 }
 
+.carousel{
+	border-radius: 10px;
+}
+
+/*.carousel {*/
+/*	margin: auto;*/
+/*	width: 80%;*/
+/*}*/

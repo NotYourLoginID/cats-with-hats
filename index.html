@@ -2,7 +2,7 @@
 <html lang="en">
 
 	<head>
-		<title>Bootstrap Example</title>
+		<title>Cats With Hats</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- Latest compiled and minified CSS -->
@@ -67,43 +67,45 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-2">
 					<div class="my-sidebar">
 						<p>Sidebar Content Here</p>
 					</div>
 				</div>
-				<div class="col-md-9">
+				<div class="col-md-10">
 					<div class="my-main-content">
-						<p>Body Content Here</p>
+
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Carousel indicators -->
+							<ol class="carousel-indicators">
+								<!--Dynamically Created from JSON -->
+							</ol>
+							<!-- Wrapper for carousel items -->
+							<div class="carousel-inner">
+								<!--Dynamically Created from JSON -->
+							</div>
+							<!-- Carousel controls -->
+							<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+								<span class="glyphicon glyphicon-chevron-left"></span>
+							</a>
+							<a class="carousel-control right" href="#myCarousel" data-slide="next">
+								<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+						</div>
+
+
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="bs-example">
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
-				<!-- Carousel indicators -->
-				<ol class="carousel-indicators">
-					<!--Dynamically Created from JSON -->
-				</ol>
-				<!-- Wrapper for carousel items -->
-				<div class="carousel-inner">
-					<!--Dynamically Created from JSON -->
-				</div>
-				<!-- Carousel controls -->
-				<a class="carousel-control left" href="#myCarousel" data-slide="prev">
-					<span class="glyphicon glyphicon-chevron-left"></span>
-				</a>
-				<a class="carousel-control right" href="#myCarousel" data-slide="next">
-					<span class="glyphicon glyphicon-chevron-right"></span>
-				</a>
-			</div>
-		</div>
+
+<!-- Footer -->
 
 
-		<div class="panel-footer">
+		<div class="panel-footer footer-fixed-bottom">
 			<div class="container">
-				<p class="text-muted">Cats With Hats 2016></p>
+				<p class="text-muted">Cats With Hats 2016</p>
 			</div>
 		</div>
 

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$.getJSON("assets/cats/cat_photos.json", function(data) {
+	$.getJSON("cat_photos.json", function(data) {
 		$.each(data.photos, function(i, item) {
 			var new_indicator = $('<li/>', {
 				"data-target": "#myCarousel",
@@ -11,7 +11,7 @@ $(document).ready(function() {
 			});
 
 			var new_image = $("<img/>", {
-				"src": "assets/cats/" + item.src
+				"src": item.src
 			});
 
 			new_item.append(new_image);
