@@ -1,0 +1,15 @@
+{
+    "photos": [{
+        "title": "Meeeeow!",
+        "caption": "I can has food now please?",
+        "src": "cat01.jpg"
+    }, {
+        "title": "Well hello there!",
+        "caption": "I can see your soul",
+        "src": "cat02.jpg"
+    }, {
+        "title": "git push --force",
+        "caption": "I develop in production",
+        "src": "cat03.jpg"
+    }]
+}
