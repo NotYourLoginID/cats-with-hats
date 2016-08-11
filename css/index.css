@@ -1,7 +1,5 @@
-body {
-	padding-top: 70px;
-	padding-bottom: 30px;
-}
+/*imports the base css class or all files on page*/
+@import 'base.css';
 
 .my-main-content,
 .my-sidebar {
@@ -15,7 +13,3 @@ body {
 	border-radius: 5px;
 }
 
-/*.carousel {*/
-/*	margin: auto;*/
-/*	width: 80%;*/
-/*}*/
