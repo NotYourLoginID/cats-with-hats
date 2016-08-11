@@ -4,12 +4,11 @@
 .my-main-content,
 .my-sidebar {
 	border-radius: 5px;
-	min-height: 300px
 }
 
 .carousel-inner> .item> img {
 	height: 400px;
 	margin: auto;
-	border-radius: 5px;
 }
+
 
