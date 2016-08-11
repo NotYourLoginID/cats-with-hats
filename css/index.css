@@ -1,11 +1,6 @@
 /*imports the base css class or all files on page*/
 @import 'base.css';
 
-.my-main-content,
-.my-sidebar {
-	border-radius: 5px;
-}
-
 .carousel-inner> .item> img {
 	height: 400px;
 	margin: auto;
