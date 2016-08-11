@@ -18,29 +18,38 @@
 		<!-- Navbar Willbe Loaded here-->
 		<div id="myPageHeader"></div>
 
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-3">
-					<h1>Page Navigation?</h1>
-					<p>Some paragraph text in this side pane.</p>
-				</div>
-				<div class="col-md-9">
-					<h1>This is a Jumbotron Heading</h1>
-					<p>This is a Jumbotron paragraph.</p>
+		<div class="container">
+			<!--Modal Display-->
+
+			<!-- Modal -->
+			<div class="modal fade" id="completionModal" role="dialog">
+				<div class="modal-dialog">
+
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Done!</h4>
+						</div>
+						<div class="modal-body">
+							<p>You can stop clicking now</p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+
 				</div>
 			</div>
-		</div>
 
-		<div class="container-fluid">
+
+
+			<!--Page Content-->
 			<div class="row">
-				<div class="col-md-2">
-					<div class="my-sidebar">
-						<p>Sidebar Content Here</p>
-					</div>
-				</div>
-				<div class="col-md-10">
-					<div class="my-main-content">
-
+				<div class="col-md-9">
+					<div class="well">
+						<h1>This is a Jumbotron Heading</h1>
+						<p>This is a Jumbotron paragraph.</p>
 						<div id="myCarousel" class="carousel slide" data-ride="carousel">
 							<!-- Carousel indicators -->
 							<ol class="carousel-indicators">
@@ -58,8 +67,12 @@
 								<span class="glyphicon glyphicon-chevron-right"></span>
 							</a>
 						</div>
-
-
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="well">
+						<h1>Sidebar</h1>
+						<button type="button" class="btn btn-primary btn-block" onclick="animateProgress(event, this)">Load Bar</button>
 					</div>
 				</div>
 			</div>

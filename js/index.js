@@ -51,3 +51,20 @@ function loadCatsToCarousel() {
 	});
 
 }
+
+function animateProgress(ev, btn){
+	var prog_bar = $("#pageloadProgress");
+	var current_val = parseInt(prog_bar.attr("aria-valuenow"));
+	var max_val = parseInt(prog_bar.attr("aria-valuemax"));
+	for(var i = current_val;i <= (current_val + 15); i++){
+		if(i > 100){
+			prog_bar.removeClass("progress-bar-info active");
+			prog_bar.addClass("progress-bar-success");
+			$(btn).css("display","none")
+			$("#completionModal").modal("show");
+			break;
+		}
+		prog_bar.attr("aria-valuenow", i);
+		prog_bar.css("width", i + "%");
+	}
+}
