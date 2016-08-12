@@ -1,18 +1,33 @@
 {
     "photos": [{
-        "class":"cat-carousel-photo",
+        "class": "cat-carousel-photo",
         "title": "Meeeeow!",
         "caption": "I can has food now please?",
         "src": "assets/photos/cat01.jpg"
     }, {
-        "class":"cat-carousel-photo",
+        "class": "cat-carousel-photo",
         "title": "Well hello there!",
         "caption": "I can see your soul",
         "src": "assets/photos/cat02.jpg"
     }, {
-        "class":"cat-carousel-photo",
+        "class": "cat-carousel-photo",
         "title": "git push --force",
-        "caption": "I develop in production",
+        "caption": "I develop in production.",
         "src": "assets/photos/cat03.jpg"
+    }, {
+        "class": "cat-carousel-photo",
+        "title": "Oops! Made a Mess!",
+        "caption": "I indent my code with spaces.",
+        "src": "assets/photos/cat04.jpg"
+    }, {
+        "class": "cat-carousel-photo",
+        "title": "It's Warm in Here",
+        "caption": "I believe thermal paste is optional",
+        "src": "assets/photos/cat05.jpg"
+    }, {
+        "class": "cat-carousel-photo",
+        "title": "Consoles are Better Than PC",
+        "caption": "I like my frame rates choppy and under 30",
+        "src": "assets/photos/cat06.jpg"
     }]
 }
