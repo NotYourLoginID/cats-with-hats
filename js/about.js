@@ -12,7 +12,7 @@ $(document).ready(function() {
 function initMap() {
 	navigator.geolocation.getCurrentPosition(function(pos) {
 		var latlon = pos.coords.latitude + "," + pos.coords.longitude;
-		var img_url = "https://maps.googleapis.com/maps/api/staticmap?center=" + latlon + "&zoom=14&size=400x300&sensor=false&markers=color:blue|"+latlon;
+		var img_url = "https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyARqrI7UT5SlwNLWPYfjkjzVdDvlwVvAkQ&center=" + latlon + "&zoom=14&size=400x300&sensor=false&markers=color:blue|"+latlon;
 		$("#myMap").append($("<img/>", {
 			"src": img_url
 		}));
