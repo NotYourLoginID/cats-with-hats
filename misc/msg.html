@@ -1,0 +1,418 @@
+x-store-info:J++/JTCzmObr++wNraA4Pa4f5Xd6uensWQjutc4PB1BVpEyhq0+7T5C7SHf8dh86cVbtf2cFxizgaHN0HMGNbiIJPYeEscSBhuVAADYBYYhRTNioWvLZliab4oaj6sl54Xl2o/AtWwI=Authentication-Results: hotmail.com;
+spf=pass (sender IP is 104.47.41.85) smtp.mailfrom=sekira@rdacorp.com;
+dkim=none header.d=rdacorp.com;
+x-hmca=pass header.id=sekira@rdacorp.com X-SID-PRA: sekira@rdacorp.com X-AUTH-Result: PASS X-SID-Result: PASS X-Message-Status: n:n X-Message-Delivery: Vj0xLjE7dXM9MDtsPTE7YT0xO0Q9MTtHRD0xO1NDTD0w X-Message-Info: l9qkOyR/cpRVB4gl2jVpE+8F+hxUw813zPNEpYEmMXpfTLg6MG2yfrWzjO6+6DY4illU6WhRrGN5ILFocsqnKJnab1YcqutwxdoFdbcH1xHbW6o1PRNjHz6rqYuXh8NkD3Ua4uaN42k8evdrYosv3xPJDItEM3EjSPLyFqxMOKdP7WHbNZAYX01eIBzqQDMhgYbd //5arv/DcRMThqTo9QM3LReZxL5x80V/M8g/hNkwpUGP71/6uw==
+Received: from NAM03-DM3-obe.outbound.protection.outlook.com ([104.47.41.85]) by SNT004-MC1F20.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23143);
+Tue,
+16 Aug 2016 10:04:37 -0700 DKIM-Signature: v=1;
+a=rsa-sha256;
+c=relaxed/relaxed;
+d=RDACorporation.onmicrosoft.com;
+s=selector1-rdacorp-com;
+h=From:Date:Subject:Message-ID:Content-Type:MIME-Version;
+bh=20J/wxz499lhKv7BCQMza6SzDz0ciAeBB5MlpeGlvFA=;
+b=M3E0U3Q3JgwiMShUOFPM4rlUW4WzVF5LOJuOhtJbBw4K6ASEPWkhmsUfon+OMNaKbCLi/++7r0uKHMMaqoIyKXkZZPslZSjdiki30rhHOnz2LyGnW1yNzlbiGRZ2BgpgbTtgfkuk1Obkl5lHI2fcSKuzWCcBbhK+jg0Bn5RbHHM=Received: from BLUPR06MB292.namprd06.prod.outlook.com (10.141.23.25) by BLUPR06MB290.namprd06.prod.outlook.com (10.141.23.18) with Microsoft SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.549.15;
+Tue,
+16 Aug 2016 17:04:32+0000 Received: from BLUPR06MB292.namprd06.prod.outlook.com ([169.254.15.10]) by BLUPR06MB292.namprd06.prod.outlook.com ([169.254.15.10]) with mapi id 15.01.0549.027;
+Tue,
+16 Aug 2016 17:04:32+0000 From: Chris Sekira <sekira@rdacorp.com> To: "cdsekira@msn.com" <cdsekira@msn.com> Subject: Sig 4 Thread-Topic: Sig 4 Thread-Index: AdH34D7CMIrqKMm1QZ6q6TYlbJBe2g==Date: Tue,
+16 Aug 2016 17:04:32+0000 Message-ID: <BLUPR06MB29269BB8ACB52BAEAA7FE19CB130@BLUPR06MB292.namprd06.prod.outlook.com> Accept-Language: en-US Content-Language: en-US X-MS-Has-Attach: yes X-MS-TNEF-Correlator: authentication-results: spf=none (sender IP is) smtp.mailfrom=sekira@rdacorp.com;
+x-originating-ip: [72.248.213.13] x-ms-office365-filtering-correlation-id: c7cec9fa-1c92-4332-a26f-08d3c5f764ac x-microsoft-exchange-diagnostics: 1;
+BLUPR06MB290;
+6:XI5VWdtPQN/R9/kL11JQRnSg2Cpxa4dl7hytlIyZnnuuaeIbKL4AAAvoYa468gzdFiWKBT2kLcx2bT6WzETTUaRCTNR67ZE1k9JwOktj6UwdOQ6KzsWLkpOGHjiT6R0DYzYMPvZomNpbO1gwISqgc457upuu6h1UZwo9zVMiyKhAfMwNz/YHCCxORVfapOOsSUvrpeqet1LvL4Hu/2eYWyN/CfBUg6Li3+ECnJmz/ymUcrFeRW/CUc/ZdLoKSuRtnRAhBV3D4gkg92+jQDpmMtg8XD8i7iVIxgqsXiOrdMKlPezHQTtuWC1V6YQzOOMk;
+5:CwV9Heg066lvy7t+YrFBjEx6icp0n9t1psD6Q8cGaPIRXnvCbTRjgWmLc8gnS0du/kYjum4Ox5ORTFQ0MwvXl2L7RtseHCI0YsJtHZ83H99fu+WX7Ib/AE7GhSV+RbMbp5iMEBVZ4V31KzIzdr6ZWA==;
+24:P8jIdt9+vpDDLCNsAC0ytYKyaykHUNNBQsQnVNzIJZ19HVp5Cvd3wv1h3ZGG+ZQAJHIxI3Zr6oyJn9IQMdbmHRyU7nGLKxr9UUIm+YizNYM=;
+7:lq0BO1zDEa6/uR2aZkS+5xpKlyp4pbMbItPg6/PQTLSiMg8rHyOaslmn4nd1Q5BpYFFGgevm2P7XfQ9HfKuf5tAr1zWDqHTnKJWRtv/2+PneV72b0Yjkh16cFZEl4E2rlKImE1UQXZqEsi+VKjkcNOsegk/U+AXpZyeQ/NXNGsnei6sfHXRXTvbpivfkbx/VJ5T1KwtW2SmAxZWEC/L966PraSgLiLZlC4gUZqZyZ2MSfWizFDSGmSGR7VmIkCUB x-microsoft-antispam: UriScan:;
+BCL:0;
+PCL:0;
+RULEID:;
+SRVR:BLUPR06MB290;
+x-microsoft-antispam-prvs: <BLUPR06MB290382ABC6EAF75F7BDF7DBCB130@BLUPR06MB290.namprd06.prod.outlook.com> x-exchange-antispam-report-test: UriScan:(31418570063057)(247508381695603)(224945534805241)(128460861657000)(21748063052155)(81160342030619)(64217206974132);
+x-exchange-antispam-report-cfa-test: BCL:0;
+PCL:0;
+RULEID:(102415321)(6040176)(601004)(2401047)(8121501046)(5005006)(10201501046)(3002001)(6043046)(6042046);
+SRVR:BLUPR06MB290;
+BCL:0;
+PCL:0;
+RULEID:;
+SRVR:BLUPR06MB290;
+x-forefront-prvs: 0036736630 x-forefront-antispam-report: SFV:NSPM;
+SFS:(10009020)(7916002)(189002)(199003)(19617315012)(2351001)(106356001)(18206015028)(229853001)(19300405004)(1730700003)(8936002)(68736007)(558084003)(10400500002)(9686002)(19627405001)(17760045003)(66066001)(16236675004)(19613025002)(450100001)(99286002)(5002640100001)(87936001)(16601075003)(2501003)(33656002)(5630700001)(122556002)(586003)(19627595001)(105586002)(7846002)(54356999)(3660700001)(19625215002)(15975445007)(99936001)(2906002)(19580395003)(19580405001)(50986999)(101416001)(8676002)(3280700002)(5640700001)(86362001)(81156014)(74316002)(110136002)(92566002)(2900100001)(81166006)(189998001)(7736002)(11100500001)(7906003)(107886002)(16865895004)(6116002)(97736004)(102836003)(3846002)(790700001)(861006)(7696003)(76576001)(14613045005)(7099028)(15519875005)(16866105001);
+DIR:OUT;
+SFP:1101;
+SCL:1;
+SRVR:BLUPR06MB290;
+H:BLUPR06MB292.namprd06.prod.outlook.com;
+FPR:;
+SPF:None;
+PTR:InfoNoRecords;
+MX:1;
+A:1;
+LANG:en;
+received-spf: None (protection.outlook.com: rdacorp.com does not designate permitted sender hosts) spamdiagnosticoutput: 1:99 spamdiagnosticmetadata: NSPM Content-Type: multipart/related;
+boundary="_004_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_";
+type="multipart/alternative" MIME-Version: 1.0 X-OriginatorOrg: rdacorp.com X-MS-Exchange-CrossTenant-originalarrivaltime: 16 Aug 2016 17:04:32.5221 (UTC) X-MS-Exchange-CrossTenant-fromentityheader: Hosted X-MS-Exchange-CrossTenant-id: e1ad5a05-d822-448e-bd9c-4f3b46334561 X-MS-Exchange-Transport-CrossTenantHeadersStamped: BLUPR06MB290 Return-Path: sekira@rdacorp.com X-OriginalArrivalTime: 16 Aug 2016 17:04:37.0026 (UTC) FILETIME=[44D8F820:01D1F7E0] --_004_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_ Content-Type: multipart/alternative;
+boundary="_000_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_" --_000_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_ Content-Type: text/plain;
+charset="us-ascii" Content-Transfer-Encoding: quoted-printable Testing Testing 1 2 Testing CHRIS SEKIRA SOFTWARE DEVELOPER E: sekira@rdacorp.com <mailto:sekira@rdacorp.com> T: 410.308.9310 M: 443.255.0403 [RDA Corporation] <https: //www.rdacorp.com/>RDA CORPORATION 1.888.441.1278 303 International Circle Suite 340 Cockeysville, MD 21030 www.rdacorp.com
+<http: //www.rdacorp.com>
+[Twitter] <https: //twitter.com/RDACorporation>[Facebook]
+<https: //facebook.co=m /RDACorp>[LinkedIn]
+<https: //www.linkedin.com/company/rda-corporation>
+--_000_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_ Content-Type: text/html;
+charset="us-ascii" Content-Transfer-Encoding: quoted-printable <html xmlns:v=3D "urn:schemas-microsoft-com:vml" xmlns:o=3D "urn:schemas-micr=
+ osoft-com:office:office" xmlns:w=3D "urn:schemas-microsoft-com:office:word"=x mlns:dt=3D "uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns:m=3D "http: //sc=
+hemas.microsoft.com/office/2004/12/omml" xmlns=3D "http: //www.w3.org/TR/REC-=
+html40">
+ <head> <meta http-equiv=3D "Content-Type" content=3D "text/html; charset=3Dus-ascii"=> <meta name=3D "Microsoft Theme 2.00" content=3D "Arctic 011"> <meta name=3D "Generator" content=3D "Microsoft Word 15 (filtered medium)"> <!--[if !mso]><style>v\:* {
+	behavior: url(#default#VML);
+}
+
+o\:* {
+	behavior: url(#default#VML);
+}
+
+w\:* {
+	behavior: url(#default#VML);
+}
+
+.shape {
+	behavior: url(#default#VML);
+}
+
+</style><![endif]--> <style> <!--
+/* Font Definitions */
+
+@font-face {
+	font-family: "Cambria Math";
+	panose-1: 2 4 5 3 5 4 6 3 2 4;
+}
+
+@font-face {
+	font-family: Calibri;
+	panose-1: 2 15 5 2 2 2 4 3 2 4;
+}
+
+@font-face {
+	font-family: Tahoma;
+	panose-1: 2 11 6 4 3 5 4 4 2 4;
+}
+
+@font-face {
+	font-family: Verdana;
+	panose-1: 2 11 6 4 3 5 4 4 2 4;
+}
+
+
+/* Style Definitions */
+
+p.MsoNormal,
+li.MsoNormal,
+div.MsoNormal {
+	margin: 0in;
+	margin-bottom: .0001pt;
+	font-size: 12.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+h1 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 1 Char";
+	margin-top: 12.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 16.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+h2 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 2 Char";
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 14.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: normal;
+}
+
+h3 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 3 Char";
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 13.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: normal;
+}
+
+h4 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 4 Char";
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 14.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: normal;
+}
+
+h5 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 5 Char";
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 13.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: normal;
+}
+
+h6 {
+	mso-style-priority: 9;
+	mso-style-link: "Heading 6 Char";
+	margin-top: 2.0pt;
+	margin-right: 0in;
+	margin-bottom: 0in;
+	margin-left: 0in;
+	margin-bottom: .0001pt;
+	page-break-after: avoid;
+	font-size: 11.0pt;
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: normal;
+}
+
+a: link,
+span.MsoHyperlink {
+	mso-style-priority: 99;
+	color: #9D454F;
+	text-decoration: underline;
+}
+
+a: visited,
+span.MsoHyperlinkFollowed {
+	mso-style-priority: 99;
+	color: #814E95;
+	text-decoration: underline;
+}
+
+span.EmailStyle17 {
+	mso-style-type: personal-compose;
+	color: black;
+}
+
+span.Heading1Char {
+	mso-style-name: "Heading 1 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 1";
+	font-family: "Verdana", sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+span.Heading2Char {
+	mso-style-name: "Heading 2 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 2";
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+span.Heading3Char {
+	mso-style-name: "Heading 3 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 3";
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+span.Heading4Char {
+	mso-style-name: "Heading 4 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 4";
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+span.Heading5Char {
+	mso-style-name: "Heading 5 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 5";
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+span.Heading6Char {
+	mso-style-name: "Heading 6 Char";
+	mso-style-priority: 9;
+	mso-style-link: "Heading 6";
+	font-family: "Verdana", sans-serif;
+	color: black;
+}
+
+.MsoChpDefault {
+	mso-style-type: export-only;
+	font-family: "Calibri", sans-serif;
+}
+
+@page WordSection1 {
+	size: 8.5in 11.0in;
+	margin: 1.0in 1.0in 1.0in 1.0in;
+}
+
+div.WordSection1 {
+	page: WordSection1;
+}
+
+--> </style> <!--[if gte mso 9]><xml> <o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" /> </xml><![endif]--> <!--[if gte mso 9]><xml> <o:shapelayout v:ext=3D"edit"> <o:idmap v:ext=3D"edit" data=3D"1" /> </o:shapelayout></xml><![endif]--> </head> <body bgcolor=3D "white" background=3D "cid:image001.gif@01D1F7BE.BB300B70" l=a ng=3D "EN-US" link=3D "#9D454F" vlink=3D "#814E95"> <img src=3D "cid:image001.gif@01D1F7BE.BB300B70" v:src=3D "cid:image001.gif@0=
+ 1D1F7BE.BB300B70" v:shapes=3D "_x0000_Mail" width=3D "0" height=3D "0" class==3D "shape" style=3D "display:none;
+width:0;
+height:0">
+ <!--[if gte mso 9]><xml> <v:background id=3D"_x0000_s1025" o:bwmode=3D"white" o:targetscreensize=3D"=
+ 1024,
+768">
+ <v:fill src=3D"cid:image001.gif@01D1F7BE.BB300B70" o:title=3D"background_ar=
+ ctic" type=3D"frame" />
+ </v:background></xml><![endif]--> <div class=3D "WordSection1"> <p class=3D "MsoNormal">Testing Testing 1 2 Testing <o:p></o:p> </p> <p class=3D "MsoNormal"> <o:p>&nbsp;
+</o:p> </p> <p class=3D "MsoNormal" style=3D "mso-margin-top-alt:auto;mso-line-height-alt=
+:9.0pt"><b><span style=3D"font-size:10.5pt;
+font-family:&quot;
+Tahoma&quot;
+,
+s=ans-serif;
+color:#212121">CHRIS SEKIRA</span></b><span style=3D "font-size:7.=5pt;
+font-family:&quot;
+Tahoma&quot;
+,
+sans-serif;
+color:#212121">
+ <br> SOFTWARE DEVELOPER <o:p></o:p></span> </p> <p class=3D "MsoNormal" style=3D "mso-margin-top-alt:0in;margin-right:0in;mar=
+ gin-bottom:7.5pt;
+margin-left:3.75pt;
+line-height:9.0pt">
+ <b><span style=3D"font-size:7.5pt;font-family:&quot;Tahoma&quot;,sans-serif=
+;
+color:#212121">E:</span></b><span style=3D "font-size:7.5pt;
+font-family:&qu=ot;
+Tahoma&quot;
+,
+sans-serif;
+color:#212121">
+ <a href=3D"mailto:sekira@rdacorp.com"><span style=3D"color:#477CCC;text-dec=
+ oration:none">sekira@rdacorp.com</span>
+ </a> <br> <b>T:</b> 410.308.9310 <br> <b>M:</b> 443.255.0403 <o:p></o:p> </span> </p> <p class=3D "MsoNormal"><a href=3D "https://www.rdacorp.com/"><span style=3D"=
+ font-family:&quot;
+Times New Roman&quot;
+,
+serif;
+color:blue;
+text-decoration:no=ne"><img border=3D"0" width=3D"130" height=3D"58" style=3D"width:1.3541in;
+h=eight:.6041in" id=3D"_x0000_i1030" src=3D"https: //i.imgur.com/lKdgFNo.png" =
+alt=3D"RDA Corporation"></span></a><span style=3D "font-family:&quot;Times N=
+ ew Roman&quot;
+,
+serif"><o:p></o:p></span>
+ </p> <p class=3D "MsoNormal" style=3D "mso-margin-top-alt:7.5pt;margin-right:0in;m=
+ argin-bottom:7.5pt;
+margin-left:3.75pt;
+line-height:9.0pt">
+ <b><span style=3D"font-size:9.0pt;font-family:&quot;Tahoma&quot;,sans-serif=
+;
+color:#212121">RDA CORPORATION</span></b><span style=3D "font-size:7.5pt;
+fo=nt-family:&quot;
+Tahoma&quot;
+,
+sans-serif">
+ <br> </span><span style=3D "font-size:7.5pt;font-family:&quot;Tahoma&quot;,sans-s=
+ erif;
+color:#212121">1.888.441.1278</span><span style=3D "font-size:7.5pt;
+fon=t-family:&quot;
+Tahoma&quot;
+,
+sans-serif">
+ <br> </span><i><span style=3D"font-size:7.5pt;font-family:&quot;Tahoma&quot;,san=
+ s-serif;
+color:#212121">303 International Circle</span></i><span style=3D "fo=nt-size:7.5pt;
+font-family:&quot;
+Tahoma&quot;
+,
+sans-serif">
+ <br> </span><i><span style=3D"font-size:7.5pt;font-family:&quot;Tahoma&quot;,san=
+ s-serif;
+color:#212121">Suite 340</span></i><span style=3D "font-size:7.5pt;
+f=ont-family:&quot;
+Tahoma&quot;
+,
+sans-serif">
+ <br> </span><i><span style=3D"font-size:7.5pt;font-family:&quot;Tahoma&quot;,san=
+ s-serif;
+color:#212121">Cockeysville, MD 21030</span></i><span style=3D "font=-size:7.5pt;
+font-family:&quot;
+Tahoma&quot;
+,
+sans-serif">
+ <br> <a href=3D"http://www.rdacorp.com"><span style=3D"color:#477CCC;text-decora=
+ tion:none">www.rdacorp.com</span>
+ </a> <o:p></o:p> </span> </p> <p class=3D "MsoNormal"> <a href=3D "https://twitter.com/RDACorporation"> <span=s tyle=3D "font-size:1.0pt;font-family:&quot;Tahoma&quot;,sans-serif;color:b=
+ lue;
+text-decoration:none">
+ <img border=3D "0" width=3D "16" height=3D "16" styl=e=3D "width:.1666in;height:.1666in" id=3D "_x0000_i1029" src=3D "https://s3.am=
+ azonaws.com/htmlsig-assets/round/twitter.png" alt=3D "Twitter">
+ </span> </a> <s=p an style=3D "font-size:1.0pt;font-family:&quot;Tahoma&quot;,sans-serif"> <im=g border=3D "0" width=3D "2" height=3D "1" style=3D "width:.0208in;height:.0104=
+ in" id=3D "_x0000_i1028" src=3D "https: //s3.amazonaws.com/htmlsig-assets/spac=
+er.gif" alt=3D "https: //s3.amazonaws.com/htmlsig-assets/spacer.gif">
+</span> <=a href=3D "https://facebook.com/RDACorp"><span style=3D "font-size:1.0pt;font=
+ -family:&quot;
+Tahoma&quot;
+,
+sans-serif;
+color:blue;
+text-decoration:none"><img=
+ border=3D"0" width=3D"16" height=3D"16" style=3D"width:.1666in;height:.166=
+ 6in" id=3D"_x0000_i1027" src=3D"https: //s3.amazonaws.com/htmlsig-assets/rou=
+nd/facebook.png" alt=3D"Facebook"></span>
+ </a><span style=3D "font-size:1.0pt=
+;
+font-family:&quot;
+Tahoma&quot;
+,
+sans-serif"><img border=3D"0" width=3D"2" h=
+ eight=3D"1" style=3D"width:.0208in;height:.0104in" id=3D"_x0000_i1026" src==3D"https://s3.amazonaws.com/htmlsig-assets/spacer.gif" alt=3D"https://s3.a=
+ mazonaws.com/htmlsig-assets/spacer.gif"></span><a href=3D "https: //www.linke=
+din.com/company/rda-corporation"><span style=3D"font-size:1.0pt;
+font-family=:&quot;
+Tahoma&quot;
+,
+sans-serif;
+color:blue;
+text-decoration:none"><img border=
+=3D"0" width=3D"16" height=3D"16" style=3D"width:.1666in;height:.1666in" id==3D"_x0000_i1025" src=3D"https://s3.amazonaws.com/htmlsig-assets/round/link=
+ edin.png" alt=3D"LinkedIn"></span></a>
+ <o:p></o:p> </p> </div> </body> </html> --_000_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_-- --_004_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_ Content-Type: image/gif;
+name="image001.gif" Content-Description: image001.gif Content-Disposition: inline;
+filename="image001.gif";
+size=92;
+creation-date="Tue, 16 Aug 2016 17:04:32 GMT";
+modification-date="Tue, 16 Aug 2016 17:04:32 GMT" Content-ID: <image001.gif@01D1F7BE.BB300B70> Content-Transfer-Encoding: base64 R0lGODlhMgAyAIAAAP ///wAAACH5BAAAAAAALAAAAAAyADIAAAIzhI+py+0Po5y02ouz3rz7D4bi SJbmiabqyrbuC8fyTNf2jef6zvf+DwwKh8Si8YhMKicFADs= --_004_BLUPR06MB29269BB8ACB52BAEAA7FE19CB130BLUPR06MB292namprd_--
